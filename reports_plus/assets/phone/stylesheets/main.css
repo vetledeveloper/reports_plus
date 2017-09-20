@@ -1,0 +1,476 @@
+/************** Mobile CSS ******************/
+div {
+	color: #686868;
+}
+
+#reports_tpl_container #project_tab_mobile,
+#reports_tpl_container #companies_tab_mobile,
+#reports_tpl_container #finance_tab_mobile {
+	width: 100%;
+	position: relative;
+}
+
+#reports_tpl_container .projects_mobile_name_label,
+#reports_tpl_container .projects_mobile_stats,
+#reports_tpl_container .projects_details_velocity_container,
+#reports_tpl_container .projects_mobile_chart_container,
+#reports_tpl_container .project_hours_percent,
+#reports_tpl_container .company_project_objects,
+#reports_tpl_container .company_project_detail_grid,
+#reports_tpl_container .project_name_label,
+#reports_tpl_container .reports_project_details,
+#reports_tpl_container .finance_kpi_container,
+#reports_tpl_container .invoice_details_container,
+#reports_tpl_container .projects_chart_velocity,
+#reports_tpl_container .projects_tracker_update,
+#reports_tpl_container .projects_tracker_update_footer,
+#reports_tpl_container .project_leader_container,
+#reports_tpl_container .projects_mobile_detail_container,
+#reports_tpl_container .project_next_milestone,
+#reports_tpl_container .invoice_details_container,
+#reports_tpl_container .finance_kpi_container {
+	width: 100%;
+	clear: both;
+}
+
+#reports_tpl_container .projects_mobile_name_label {
+	font-size: 3.0em;
+	font-weight: bold;
+	margin-bottom: 1%;
+	padding-top: 15px;
+}
+
+#reports_tpl_container .projects_mobile_detail_container,
+#reports_tpl_container .projects_tracker_update,
+#reports_tpl_container .projects_tracker_update_footer,
+#reports_tpl_container .reports_projects_details_container,
+#reports_tpl_container .company_project_objects,
+#reports_tpl_container .general_stats_container {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#reports_tpl_container .projects_mobile_detail_container {
+	height: 200px;
+	background-color: #E3F2FF;
+}
+
+#reports_tpl_container .projects_tracker_update {
+	height: 125px;
+	margin-bottom: 2%;
+	margin-top: 1%;
+	background: #eaf5ff; /* Old browsers */
+	background: -moz-linear-gradient(top,
+	 #eaf5ff 0%, #f0f8ff 45%, #ffffff 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eaf5ff),
+		color-stop(45%, #f0f8ff), color-stop(100%, #ffffff) );
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eaf5ff 0%, #f0f8ff 45%, #ffffff 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eaf5ff 0%, #f0f8ff 45%, #ffffff 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #eaf5ff 0%, #f0f8ff 45%, #ffffff 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #eaf5ff 0%, #f0f8ff 45%, #ffffff 100%);
+	/* W3C */
+	filter: progid : DXImageTransform.Microsoft.gradient (   startColorstr =
+		'#eaf5ff', endColorstr = '#ffffff', GradientType = 0 ); /* IE6-9 */
+}
+
+#reports_tpl_container .projects_tracker_update_footer {
+	height: 65px;
+	/*margin-bottom: 1%;*/
+	margin-top: -15px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 17%, #eaf5ff 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(17%, #ffffff), color-stop(100%, #eaf5ff) );
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 17%, #eaf5ff 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 17%, #eaf5ff 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 17%, #eaf5ff 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 17%, #eaf5ff 100%);
+	/* W3C */
+	filter: progid : DXImageTransform.Microsoft.gradient (   startColorstr =
+		'#ffffff', endColorstr = '#eaf5ff', GradientType = 0 ); /* IE6-9 */
+}
+
+#reports_tpl_container .projects_tracker_velocity,
+#reports_tpl_container .projects_tracker_hours {
+	width: 48%;
+	margin-left: 2%;
+	float: left;
+	height: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+#reports_tpl_container .projects_tracker_update .value_heading {
+	font-size: 2.4em;
+	width: 100%;
+	float: left;
+}
+
+#reports_tpl_container .projects_tracker_update .current {
+	font-size: 4em;
+	width: 100%;
+	float: left;
+}
+
+#reports_tpl_container .projects_tracker_update .previous {
+	font-size: 2.4em;
+	width: 100%;
+	float: left;
+}
+
+#reports_tpl_container .projects_tracker_update img {
+	margin-right: 1%;
+	margin-left: 1%;
+	width: 15%;
+	max-width: 36px;
+}
+
+#reports_tpl_container .projects_mobile_stats_small_pie_container {
+	width: 23%;
+	float: left;
+	margin-right: 1%;
+	margin-top: 10px;
+	position: absolute;
+}
+
+#reports_tpl_container .projects_mobile_stats_small_pie {
+	width: 165px;
+	height: 165px;
+}
+
+#reports_tpl_container .projects_mobile_stats_list,
+#reports_tpl_container .reports_company_projects_list {
+	width: 70%;
+	float: left;
+	margin-left: 29%;
+	margin-right: 1%;
+	position: absolute;
+}
+
+#reports_tpl_container .project_hours_percent .info_label,
+#reports_tpl_container .projects_details_velocity .info_label,
+#reports_tpl_container .project_next_milestone .info_label
+	{
+	font-size: 3em;
+}
+
+#reports_tpl_container .reports_company_projects_list .info_label_bold,
+#reports_tpl_container .projects_mobile_stats_list .info_label_bold
+	{
+	font-size: 2.8em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#reports_tpl_container .small_pie_company_container {
+	width: 23%;
+	float: left;
+	margin-right: 1%;
+	margin-top: 15px;
+}
+
+#reports_tpl_container .small_pie_company {
+	width: 165px;
+	height: 165px;
+}
+
+#reports_tpl_container .project_objects_cell {
+	width: 48%;
+	float: left;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	margin-left: 2%;
+	text-align: center;
+}
+
+#reports_tpl_container .project_name_label {
+	font-size: 3.2em;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#reports_tpl_container .project_objects_value {
+	font-size: 3.2em;
+	font-family: Georgia, 'Lucida Grande', Arial, sans-serif;
+}
+
+#reports_tpl_container .reports_burn_down_chart {
+	height: 200px;
+}
+
+#reports_tpl_container .project_objects_label {
+	font-size: 2.7em;
+}
+
+#reports_tpl_container .project_hours,
+#reports_tpl_container .project_percent,
+#reports_tpl_container .project_velocity,
+#reports_tpl_container .project_forecast,
+#reports_tpl_container .project_leader
+	{
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+#reports_tpl_container .project_leader {
+	width: 98%
+}
+
+#reports_tpl_container .project_hours,
+#reports_tpl_container .project_velocity {
+	width: 45%;
+}
+
+#reports_tpl_container .project_percent,
+#reports_tpl_container .project_forecast {
+	width: 52%;
+}
+
+#reports_tpl_container .project_next_milestone {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#reports_tpl_container .projects_mobile_stats_list img,
+#reports_tpl_container .reports_company_projects_list img {
+	float: left;
+	margin-right: 12px;
+	width: 15%;
+	max-width: 32px;
+	margin-top: 7px;
+}
+
+#reports_tpl_container .company_project_objects {
+	margin-top: 2%;
+	background-color: #FDFFD2;
+}
+
+#reports_tpl_container .reports_projects_details_container { 
+	/*height: 275px;*/
+	background-color: #E3F2FF;
+}
+
+#reports_tpl_container .company_project_detail_grid {
+	margin-top: 2%;
+}
+
+#reports_tpl_container .reports_projects_details_container {
+	margin-bottom: 2%;
+}
+
+#reports_tpl_container .tracker_heading {
+	font-size: 3.2em;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#reports_tpl_container .general_stats_container {
+	text-align: center;
+}
+
+#reports_tpl_container .invoice_summary_cell {
+	float: left;
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+#reports_tpl_container .invoice_summary_cell .amount_kpi_heading,
+#reports_tpl_container .invoice_summary_cell .kpi_current,
+#reports_tpl_container .invoice_summary_cell .kpi_difference,
+#reports_tpl_container .kpi_cell .kpi_heading,
+#reports_tpl_container .kpi_cell .kpi_current,
+#reports_tpl_container .kpi_cell .kpi_difference
+	{
+	float: left;
+	width: 100%;
+}
+
+#reports_tpl_container .invoice_summary_cell .amount_kpi_heading,
+#reports_tpl_container .kpi_cell .kpi_heading {
+	font-size: 2.4em;
+}
+
+#reports_tpl_container .invoice_summary_cell .amount_kpi_label {
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+#reports_tpl_container .amount_kpi_underline {
+	border-bottom: 2px solid;
+	clear: both;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+}
+
+#reports_tpl_container .invoice_summary_cell .label_issued {
+	color: #70A9DD;
+}
+
+#reports_tpl_container .invoice_summary_cell .label_paid {
+	color: #6FAB54;
+}
+
+#reports_tpl_container .invoice_summary_cell .label_outstanding {
+	color: #E7943E;
+}
+
+#reports_tpl_container .invoice_summary_cell .label_overdue {
+	color: #CD0101;
+}
+
+#reports_tpl_container .invoice_summary_cell .kpi_current,
+#reports_tpl_container .kpi_cell .kpi_current {
+	font-size: 4em;
+}
+
+#reports_tpl_container .invoice_summary_cell .kpi_difference,
+#reports_tpl_container .kpi_cell .kpi_difference {
+	font-size: 2.4em;
+}
+
+#reports_tpl_container .invoice_summary_cell img,
+#reports_tpl_container .kpi_cell img {
+	margin-right: 12px;
+	width: 15%;
+	max-width: 32px;
+	margin-top: 7px;
+}
+
+#reports_tpl_container .kpi_cell {
+	float: left;
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+#reports_tpl_container .kpi_cell_last {
+	width: 100% !important;
+	clear: both;
+	margin-left: 24%;
+}
+
+#reports_tpl_container .kpi_cell .kpi_label { 
+	/*border-bottom: 1px solid;*/
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#reports_tpl_container .invoice_details_container { 
+	/*background-color: #F9FFC5;*/
+	height: 335px;
+}
+
+#reports_tpl_container .invoice_summary_container .issued_details {
+	color: #70A9DD;
+}
+
+#reports_tpl_container .invoice_summary_container .paid_details {
+	color: #6FAB54;
+}
+
+#reports_tpl_container .invoice_summary_container .outstanding_details {
+	color: #E7943E;
+}
+
+#reports_tpl_container .invoice_summary_container .overdue_details {
+	color: #CD0101;
+}
+
+#reports_tpl_container .general_stats_container {
+	height: 350px;
+	background: #eaf5ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #eaf5ff 0%, #ffffff 45%, #ffffff 87%, #eaf5ff
+		100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eaf5ff),
+		color-stop(45%, #ffffff), color-stop(87%, #ffffff),
+		color-stop(100%, #eaf5ff) ); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eaf5ff 0%, #ffffff 45%, #ffffff 87%,
+		#eaf5ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eaf5ff 0%, #ffffff 45%, #ffffff 87%, #eaf5ff
+		100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #eaf5ff 0%, #ffffff 45%, #ffffff 87%, #eaf5ff
+		100%); /* IE10+ */
+	background: linear-gradient(to bottom, #eaf5ff 0%, #ffffff 45%, #ffffff 87%, #eaf5ff
+		100%); /* W3C */
+	filter: progid : DXImageTransform.Microsoft.gradient (   startColorstr =
+		'#eaf5ff', endColorstr = '#eaf5ff', GradientType = 0 ); /* IE6-9 */
+}
+
+#reports_tpl_container .finance_kpi_container {
+	margin-top: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 94% !important;
+}
+
+#reports_tpl_container .invoice_summary_cell .heading_issued {
+	color: #70A9DD;
+}
+
+#reports_tpl_container .invoice_summary_cell .heading_paid {
+	color: #6FAB54;
+}
+
+#reports_tpl_container .invoice_summary_cell .heading_outstanding {
+	color: #E7943E;
+}
+
+#reports_tpl_container .invoice_summary_cell .heading_overdue {
+	color: #CD0101;
+}
+
+/*css to hide the jqplot axis*/
+#reports_tpl_container .projects_chart_velocity .jqplot-xaxis {
+	display: none;
+}
+
+#reports_tpl_container .err_msg_div {
+	height: 100px;
+	text-align: center;
+}
+
+#reports_tpl_container .err_msg_text_div {
+	background-color: #DDDDDD;
+	border-radius: 12px 12px 12px 12px;
+	color: black;
+	height: 40px;
+	left: 36%;
+	line-height: 40px;
+	opacity: 7;
+	position: relative;
+	top: 30%;
+	width: 27%;
+}
+
+.clear {
+	clear: both
+}

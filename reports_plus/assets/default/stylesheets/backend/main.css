@@ -1,0 +1,1769 @@
+/*overriding font-awesome font file url's */
+
+
+/* Time Reports Plus */
+
+#tracking_reports_plus_results {
+	background: #FFFFFF;
+}
+
+#global_time_report_records {
+	margin: 10px 30px !important;
+	width: 95% !important;
+}
+
+#global_time #time_report .report_label {
+	width: 100px;
+	text-align: right;
+}
+
+.global_time_record td {
+    height: 25px;
+	padding-left: 5px;
+}
+
+.report_chb {
+	text-align: center; 
+	padding: 3px !important;
+	width: 25px;
+}
+
+table#global_time_report_records .report_chb_checkbox {
+	float: left !important;
+}
+
+#global_time_report_records td {
+	padding-left: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+
+table#global_time_report_records .totalHours0, 
+table#global_time_report_records .totalHours1, 
+table#global_time_report_records .totalHours2, 
+table#global_time_report_records .global_total_hours, 
+table#global_time_report_records  #records_summary td, 
+table#global_time_report_records .select_all_row_label {
+	text-align: right !important;
+}
+
+table#global_time_report_records .heading0 td {
+	font-size: 1.5em;
+	background-color: #F5F4DD;
+	padding: 8px;
+	margin: 5px;
+	font-weight: bold;
+	border-bottom: thin solid #DDDDDD;
+	text-indent: 8px;
+}
+
+table#global_time_report_records .heading1 td {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+	border-bottom: thin solid #F2F2F2;
+	background-color: #E5E3E3;
+	text-indent: 32px;
+}
+
+table#global_time_report_records .heading2 td{
+	font-size: 1.2em;
+	border-top: thin solid #F2F2F2;
+	border-bottom: thin solid #F2F2F2;
+	padding: 5px;
+	margin: 5px;
+	font-weight: bold;
+	text-indent: 64px;
+}
+
+table#global_time_report_records .global_total_hours{
+	font-weight: bold;
+	font-size: 1.2em;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#global_time_report_records {
+	border-collapse: collapse;
+}
+
+#global_time_report_records td.date,
+#global_time_report_records td.user,
+#global_time_report_records td.project {
+	white-space:nowrap;
+	overflow: hidden;
+	padding-right: 5px;
+}
+#global_time_report_records td.date{
+	width: 80px;
+	max-width : 90px;
+}
+
+#global_time_report_records td.Hours {
+	padding-left : 5px;
+	text-align: right !important;
+	width:50px;
+/*        color: #0B8F16;*/
+       
+}
+
+table#global_time_report_records .totalHours0, 
+table#global_time_report_records .totalHours1, 
+table#global_time_report_records .totalHours2 ,
+table#global_time_report_records .totalHours{
+/*     color: #0B8F16;*/
+       color: #A5BC4E;
+       padding-right: 5px !important;
+}
+
+
+table#global_time_report_records td.Hours,
+table#global_time_report_records td.Estimate,
+table#global_time_report_records td.totalHours_padding{
+	padding-right: 5px !important;
+}
+table#global_time_report_records .totalEstimate0,
+table#global_time_report_records .totalEstimate1,
+table#global_time_report_records .totalEstimate2 ,
+table#global_time_report_records .totalEstimate{
+     color: #E48701;
+     text-align: right !important;
+     padding-right: 5px !important;
+}
+#global_time_report_records td.Estimate {
+	padding-left : 5px;
+	text-align: right !important;
+	width:50px;
+       
+}
+
+#global_time_report_records td.desc {
+	padding-left : 5px;
+}
+
+#global_time_report_records td.billed {
+	padding-left : 5px;
+	width:50px;
+}
+table#global_time_report_records .empty_span{
+    width: 25px;
+    padding: 3px;
+}
+table#global_time_report_records .leagends{
+	  margin-left: 5px;
+	  padding: 2px 5px 3px;
+	  background-color: #CCC;
+	  color: #FFFFFF;
+	  border-radius: 4px;
+	  font-size: 9px;
+	  text-transform: uppercase;
+ 
+}
+table#global_time_report_records .actual{
+    text-align: right !important;
+/*    background-color: #0B8F16;*/
+ 	background-color:#A5BC4E;
+    color: white;
+}
+table#global_time_report_records .estimate{
+    text-align: right !important;
+/*    background-color: #0E0EED;*/
+ background-color:#E48701;
+color: white;
+}
+table#global_time_report_records .leagends_td{
+     text-align: right !important;
+     
+}
+
+
+/*----- Reports Plus -----*/
+
+.reports_plus_main_container{
+	background-color: #FFFFFF;
+	padding-top: 5px;;
+	padding-right:1%;
+	padding-left:0.5%;
+	min-width: 930px;
+	font-family: 'Lucida Grande',Arial,sans-serif;
+}
+
+.reports_plus_main{
+	height:100%
+	
+}
+.reports_plus_controls{
+	border-bottom: 1px solid #D0D0D0;
+	height: 27px;
+    width: 100%;
+}
+.reports_tpl_container{
+	width: 100%;
+	clear: both;
+}
+
+.reports_plus_common_buttons{
+	float: left;
+	width: 31%;
+}
+
+.reports_plus_main_container .button_common_container{
+	float: left;
+}
+
+.reports_plus_main_container .button_common, .people_main_container .button_common, .reports_plus_leader_board .button_common{
+	background-color: #FFFFFF;
+    background-image: none !important;
+    border: none !important;
+	/*background: url("assets/images/environment/default/layout/forms/soft-button.png") repeat-x scroll left bottom #EEEEEE;*/
+    /*border-color: #CCCCCC -moz-use-text-color #818181;*/
+    border-style: solid none;
+    border-width: 1px 0 1px medium;
+    border-radius: 2px !important;
+    box-shadow: 0 0 3px #DDDDDD;
+    color: #565656 !important;
+    cursor: pointer;
+    padding: 1px 10px 2px 8px !important;
+    text-shadow: 0 0px 0 #DDDDDD;
+    font-weight: bold;
+    font-size:10px;
+    height: 23px;
+    vertical-align: text-top;
+}
+
+.reports_plus_main_container .button_common img, 
+.reports_plus_main_container .project_velocity img{
+	width: 14px;
+	height: 14px;
+}
+.reports_plus_main_container .button_common_icon{
+	margin-right:3px;
+	vertical-align: text-top;
+}
+.reports_plus_main_container .button_print_container{
+	float: left;
+	margin-left: 5px;
+	padding-top: 2px;
+}
+
+.reports_plus_main_container .button_print{
+	float: left;
+	margin-left: 3px;
+	cursor:pointer;
+}
+
+.reports_plus_main_container .button_export_reports img{
+	width: 16px;
+	height: 16px;
+}
+
+.reports_plus_main_container .button_export_reports{
+	border-radius: 0px 8px 8px 0px;
+	float:left;
+    margin-top: 2px;
+	margin-left: 7px;
+	padding: 2px 2px 2px 0px !important;
+	width: 20px;
+}
+
+.reports_plus_main_container .button_common:hover,
+.button_export_reports img:hover,
+.people_main_container .button_common:hover{
+	/*border-color: blue;
+	border-width: 1px;*/
+	box-shadow: 0 0 6px #B5DCF2;
+	-webkit-box-shadow: 0 0 6px #B5DCF2;
+	-moz-box-shadow: 0 0 6px #B5DCF2;
+}
+
+.reports_plus_main_container .button_selected_skin {
+	background-color: #B5DCF2 !important;
+}
+
+.reports_plus_main_container .filter_control_container{
+	float: right;
+	width: 68%;
+	margin-left: 1%;
+}
+
+.reports_plus_main_container .reports_plus_reports_container{
+	width: 100%;
+	padding-top:5px;
+	
+}
+
+.reports_plus_main_container .div_inner_text{
+	float: left;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+
+.reports_plus_main_container .load_controls,
+.reports_plus_leader_board .load_controls{
+	float: right;
+	margin-left: 3px;
+}
+
+.reports_plus_main_container #button_load_projects,
+.reports_plus_main_container #button_load_compnies,
+.reports_plus_main_container #button_load_people,
+.reports_plus_main_container #button_load_finance {
+	border-radius: 8px;
+	float: left;
+    margin-top: 0px;
+}
+.reports_plus_main_container .button_previous{
+	border-radius: 8px 0px 0px 8px;
+	float: left;
+	margin-left: 2px;
+        margin-top: 1px;
+	padding: 2px 0px 2px 2px !important;
+	width: 20px;
+}
+.reports_plus_main_container .button_next{
+	border-radius: 0px 8px 8px 0px;
+	float:left;
+    margin-top: 1px;
+	margin-left: 1px;
+	padding: 2px 2px 2px 0px !important;
+	width: 20px;
+}
+.reports_plus_main_container .button_previous img,
+.reports_plus_main_container .button_next img{
+	width: 12px;
+	height: 12px;
+}
+
+.reports_plus_main_container .select_date_range{
+	width: 225px;
+	float: right;
+	margin-left: 3px;
+}
+
+.reports_plus_main_container .select_date_range_finance{
+	width:215px !important;
+}
+
+.reports_plus_main_container .select_reports_filters{
+	width: 255px;
+	float: right;
+	margin-left: 3px;
+}
+.reports_plus_main_container .div_round_controls,
+.reports_plus_leader_board  .div_round_controls{
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height: 24px;
+	width:100%;
+}
+
+.reports_plus_main_container .div_round_controls img, 
+.people_div_round_controls img{
+	margin-left:3px;
+	position:relative;
+	top:4px;
+	cursor:pointer;
+}
+
+.reports_plus_main_container .select_reports_companies_filters{
+	width: 302px;
+	float: right;
+}
+
+.reports_plus_main_container .company_project_objects{
+    background-color: #FDFFD2 !important; 
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.reports_plus_main_container .project_objects_cell,
+.reports_plus_leader_board .project_objects_cell{
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 2%;
+    width:14%;
+    text-align: center;
+}
+
+.reports_plus_main_container .project_objects_value,
+.reports_plus_leader_board .project_objects_value{
+	font-size: 2.0em;
+	font-family : Georgia,'Lucida Grande',Arial,sans-serif;
+}
+
+.reports_plus_main_container .project_objects_label,
+.reports_plus_leader_board .project_objects_label{
+	font-size: 1.05em;
+}
+
+.reports_plus_main_container .div_round_controls select{
+	float: left;
+        margin-top: 2px;
+        font-size: 1em;
+    
+}
+/*18th March 2013*/
+.people_main_container .project_objects_value {
+	font-size: 1.5em;
+	font-family : Georgia,'Lucida Grande',Arial,sans-serif;
+}
+
+.people_main_container .project_objects_label {
+	font-size: 0.9em;
+}
+
+
+
+.reports_plus_main_container .filter_type_container {
+	height: 23px;
+	width: 85px;
+	overflow: hidden;
+	background: transparent;
+	float: left;
+	border-radius: 2px;
+	box-shadow: 0 0 3px #DDDDDD;
+	-webkit-box-shadow: 0 0 3px #DDDDDD;
+	-moz-box-shadow: 0 0 3px #DDDDDD;
+	background: url(assets/images/reports_plus/default/dropdown_arrow.png);
+	background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+.reports_plus_main_container #reports_filter_type{
+	margin-left: 0px;
+	width: 103px;
+	/*height: 23px;*/
+}
+
+.reports_plus_main_container .filter_list_container {
+	height: 23px;
+	width: 155px;
+	margin-right: 10px;
+	overflow: hidden;
+	border-radius: 2px;
+	float: right;
+	box-shadow: 0 0 3px #DDDDDD;
+	-webkit-box-shadow: 0 0 3px #DDDDDD;
+	-moz-box-shadow: 0 0 3px #DDDDDD;
+	background: url(assets/images/reports_plus/default/dropdown_arrow.png);
+	background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+.reports_plus_main_container #reports_filter_list{
+	width:173px;
+	margin-left: 0;
+	/*height: 23px;*/
+	/*margin-left: 5px;*/
+}
+.reports_plus_main_container #date_range_list{
+	width: 15px;
+	margin: 0px;
+	cursor: pointer;
+	height: 15px;
+}
+.reports_plus_main_container #date_range_list_container{
+	background-image: url('assets/images/reports_plus/default/icon/down.gif') ;
+	width:16px;
+	height:16px;
+	margin-left: 3px;
+	margin-top: 5px;
+	float: left;
+        overflow: hidden;
+	
+}
+.reports_plus_main_container #date_range_list_container select{
+	opacity : 0;
+}
+/*16th March 2013 START*/
+.reports_companies_container {
+	height: 23px;
+	width: 165px;
+	margin-left: 5px;
+	overflow: hidden;
+	background: transparent;
+	float: left;
+	border-radius: 2px;
+	box-shadow: 0 0 3px #DDDDDD;
+	-webkit-box-shadow: 0 0 3px #DDDDDD;
+	-moz-box-shadow: 0 0 3px #DDDDDD;
+	background: url(assets/images/reports_plus/default/dropdown_arrow.png);
+	background-repeat: no-repeat !important;
+    background-position: right !important;
+    margin-right: 5px;
+}
+.reports_plus_main_container #reports_companies{
+	width: 182px;
+	margin-left: 0;
+	/*height: 23px;*/
+}
+
+.reports_plus_main_container .project_status_container {
+	height: 23px;
+	width: 115px;
+	overflow: hidden;
+	background: transparent;
+	float: left;
+	border-radius: 2px;
+	box-shadow: 0 0 3px #DDDDDD;
+	-webkit-box-shadow: 0 0 3px #DDDDDD;
+	-moz-box-shadow: 0 0 3px #DDDDDD;
+	background: url(assets/images/reports_plus/default/dropdown_arrow.png);
+	background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+.reports_plus_main_container #reports_companies_project_status{
+	width:132px;
+	margin-left: 0;
+	/*height: 23px;*/
+}
+
+.reports_plus_main_container .select_date_range input.input_text{	
+    width: 60px;
+    font-size: 1em;
+    height: 10px;
+	
+}
+.reports_plus_main_container .date_range_start,
+.reports_plus_leader_board .date_range_start{
+	float:left;
+	margin-left: 5px;
+	margin-top: 0px;
+
+}
+.reports_plus_main_container .date_range_end,
+.reports_plus_leader_board .date_range_end{
+	margin-top: 0px;
+	float:left;
+	margin-left: 5px;
+}
+
+.reports_plus_main_container .reports_plus_charts_container{
+	width: 79%;
+	float:right;
+}
+
+
+.reports_plus_main_container .reports_plus_charts_container .header_style {
+	text-align: left;
+}
+.reports_plus_main_container .header_style {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #666 !important; 
+	padding-left: 2px;
+	text-align: center;
+}
+
+.reports_plus_main_container .display_charts {
+	width: 95%;
+	height: 135px;
+	margin-left: 2%;
+	margin-top : -15px;
+	margin-right: 3%;
+	display:block;
+}
+	
+.reports_plus_main_container .projects_chart_velocity, 
+.reports_plus_main_container .projects_chart_hours{
+	margin-top:1%;
+	margin-bottom:2%;
+	margin-left: 2%; 
+	float: left;
+	width : 48%;
+}
+
+.reports_plus_main_container .projects_chart_hours{
+	
+}
+/***** Legend  ****/
+.reports_plus_main_container .reports_chart_legend{
+	margin-left: 25px;
+	margin-top: 12px;
+	
+}
+.reports_plus_main_container .legend_cell{
+	float: left;
+	margin-left:10px;
+}
+.reports_plus_main_container .legend_bullet{
+	float: left;
+	margin-top: 1px;
+	height: 8px;
+	width: 8px;
+}
+.reports_plus_main_container .legend_label{
+	float: left;
+	margin-left: 4px;
+	font-size: 0.8em;
+	color: #5B5B5B;
+}
+
+.reports_plus_main_container .reports_plus_projects_details{
+	float:left;
+	width: 18%;
+	margin-right: 2%;
+	margin-left: 1%;
+	
+}
+
+.reports_projects_details_row{
+	width: 100%;
+	padding: .4em .8em !important;
+}
+.reports_projects_details_row > div{
+	float: left;
+	margin-left: 1%;
+	font-size: 1.1em;
+	color: #3C3C3C;
+
+}
+.projects_details_grid .li_list_header{
+	padding: .8em .8em !important;
+	font-size: 1.1em !important;
+	font-weight: bold;
+	color: #666 !important;	
+}
+.projects_details_grid .li_list_header_border{
+	margin: 0 1.4em .8em 1.4em !important; 
+	border-bottom: dashed .1em #ccc;
+}
+
+
+.reports_projects_details_row .project_details_list_label{
+	width: 20%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.reports_projects_details_row .project_details_list_label a{
+	font-size: 1.1em !important;
+	line-height: 1.1em !important;
+	color: #444 !important;
+	text-decoration: none;
+}
+.reports_projects_details_row .project_details_list_label a:hover{
+	color: #00355F !important;
+}
+.reports_projects_details_row .project_progress_indiacator{
+	width:15px;
+	margin-top: 2px; 
+}
+.reports_projects_details_row .open_completed_contianer{
+	text-align: left;
+	width:14%;
+}
+.reports_projects_details_row .open_completed_contianer span{
+	color: #8c8c8c!important;
+	font-style: italic !important;
+	font-size: .9em !important;
+}
+
+.reports_projects_details_row .small_pie_company{
+	height: 50px;
+	width: 50px;
+}
+.reports_plus_main_container .project_name_label{
+	font-weight: bold;
+	font-size: 1.2em !important;
+	text-align: left !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.reports_plus_main_container .project_name_label a {
+	color: black !important;
+	font-weight: bold !important;
+}
+.reports_plus_main_container .small_icon{
+	/*float:left;*/
+	margin-top: 1px;
+}
+.reports_plus_main_container .reports_projects_details_row .info_label {
+	font-size: 1.1em !important;
+}
+.reports_plus_main_container .project_hours{
+	width:7%;
+	text-align: right;
+}
+.reports_plus_main_container .project_percent{
+	width:5%;
+	text-align: right;
+}
+.reports_plus_main_container .project_percent_progress_label{
+	font-size: 1em !important;
+	text-align: right;
+}
+.reports_plus_main_container .project_leader{
+	width: 15%;
+}
+
+.reports_plus_main_container .project_next_milestone{
+	width: 20%;
+	text-align: left;
+}
+.reports_plus_main_container .info_label{
+	font-size: 10px;
+	margin-left: 3px;
+	color: #323232;
+}
+.reports_plus_main_container .info_label_bold{
+	font-weight: bold;
+}
+.reports_plus_main_container .project_velocity_label{
+	font-size: 1em;
+	float: left;
+	margin-left: 3px;
+	color: #323232;
+	font-weight: bold;
+}
+.reports_plus_main_container .project_next_milestone div.milestone_label{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 92%;
+        float:left;
+        margin-left: 2px;
+}
+.project_next_milestone  img{
+	margin-top: -2px !important;
+	margin-left: -3px;
+}
+.reports_plus_main_container .projects_most_active{
+	margin-top: 2%;
+}
+.reports_plus_main_container .projects_most_active_container{
+	height: 150px;	
+}
+.reports_plus_main_container .most_active_task_name a{
+	color: #444 !important;
+    padding-left: 1em !important;
+    display: block;
+}
+
+.reports_plus_main_container li.most_active_task_name:hover a{
+	color: #00355F !important;
+}
+.reports_plus_main_container .projects_details_velocity{
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #FDFFBF;
+ 	height: 18px;
+    margin-top: 1.5%;
+    padding-top: 5px;
+}
+.reports_plus_main_container .project_velocity {
+	float:left;
+	margin-left:5px;
+	width:45%;
+	
+}
+.reports_plus_main_container .project_forecast{
+	float:left;
+	width:40%;
+}
+.reports_plus_main_container .projects_details_most_active{
+	clear: both;
+}
+
+/*Styles for Jq-plot Tool-tips */
+/*.reports_plus_main_container .tooltip_main_container,*/
+.reports_plus_leader_board .tooltip_main_container{
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-size: 8.5;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 4px;
+	-moz-box-shadow: 1px 1px 2px #999; /* Firefox */
+ 	-webkit-box-shadow: 1px 1px 2px #999; /* Safari/Chrome */
+ 	box-shadow: 1px 1px 2px #999; /* Opera and other CSS3 supporting browsers */
+ 	
+ 	position: fixed !important;
+	z-index: 9999;
+}
+
+
+.reports_plus_leader_board .tooltip_div{
+	text-align: center;
+}
+
+.reports_plus_leader_board .tooltip_font_bold{
+	font-weight: bold;
+}
+
+.reports_plus_leader_board .tooltip_font_italic{
+	font-style: italic;
+}
+
+
+/* CSS for People's section*/
+
+.reports_plus_leader_board .projects_charts_container {
+	width: 420px;
+	margin: 0 auto;
+	/*height: 200px;*/
+}
+
+.reports_plus_leader_board .projects_details {
+	width: 29%;
+	float : left;
+	margin-top: 12px;
+}
+
+.reports_plus_leader_board .hours_chart_container {
+	
+	float: left;
+	/*margin-left: 20px;*/
+	margin-right: 10px;
+}
+
+.reports_plus_leader_board .assignments_chart_container {
+	float: left;
+	margin-right: 10px;
+	/*margin-left: 1%;*/
+	
+}
+
+.reports_plus_leader_board #hours_donut_chart {
+	width: 193px;
+	height: 193px;
+	
+}
+
+.reports_plus_leader_board #assignments_donut_chart {
+	width: 193px;
+	height: 193px;
+	
+}
+
+.reports_plus_leader_board #person_summary div.project_objects_cell {
+	width:30%;
+	text-align: center;
+}
+
+.reports_plus_leader_board .text_font_bold {
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.reports_plus_leader_board .div_padding_right {
+	padding-left: 2px;
+}
+
+.reports_plus_leader_board .people_div_round_controls{
+	/*height: 24px;*/
+	height: 30px;
+	width: 210px;
+	float: right;
+}
+.reports_plus_leader_board .people_div_inner_text{
+	float: left;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.reports_plus_leader_board .people_date_range_start{
+	float:left;
+	margin-left: 12px;
+	margin-top: 0px;
+}
+.reports_plus_leader_board .people_date_range_end{
+	margin-top: 0px;
+	float:left;
+	margin-left: 5px;
+}
+
+.reports_plus_leader_board .people_select_date_range input.input_text{	
+        width: 60px;
+        font-size: 1em;
+        height: 10px;
+}
+
+.reports_plus_leader_board  #people_button_load_reports {
+	border-radius: 20px;
+	float: right;
+	/*padding: 4px 10px !important;*/
+}
+
+.reports_plus_leader_board .charts_container {
+	width: 70%;
+	margin-top: 12px;
+	float: left;
+}
+
+.reports_plus_leader_board ul{
+	list-style-type: none;
+}
+
+
+.reports_plus_leader_board .people_assignments_legend, 
+.reports_plus_leader_board .people_hours_legend{
+	margin-left: 35px;	
+}
+
+.reports_plus_leader_board .legend_list_item{
+	clear:both;
+
+}
+/* For displaying the legends */
+.reports_plus_leader_board .people_reports_legend{
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+/*.reports_plus_leader_board .legend_cell_even{
+	margin-left: 5%;
+}
+.reports_plus_leader_board .legend_cell_odd{
+	margin-left: 15%;
+}
+
+.reports_plus_leader_board .people_reports_legend_cell{
+    float: left;
+    width:40%;
+}
+*/
+.reports_plus_leader_board .people_reports_legend_bullet{
+    float: left;
+    margin-top: 1px;
+    height: 8px;
+    width: 8px;
+}
+
+.reports_plus_leader_board .people_reports_legend_label{
+    float: left;
+    margin-left: 4px;
+    font-size: 0.8em;
+    color: #5B5B5B;
+    margin-bottom: 1px;
+}
+.reports_plus_leader_board .people_select_date_range {
+	width:100%;
+	clear:both;
+	/*position: absolute;*/
+}
+
+.reports_plus_leader_board .person_stats {
+	width:100%;
+	clear:both;
+}
+
+.reports_plus_leader_board .people_reports {
+	width:100%;
+	clear:both;
+}
+.reports_plus_leader_board .people_project_summary{
+	background-color: #f9ffc5 !important;
+	height: 53px;
+}
+
+.reports_plus_leader_board .main_container{
+	width:100%;
+	clear:both;
+}
+.reports_plus_leader_board .people_main_container{
+	position:relative;
+}
+
+.reports_plus_leader_board .leader_board_charts {
+	width: 100%;
+	height: 165px;
+}
+
+.reports_plus_leader_board td.text_font_bold {
+	text-align: right;
+}
+
+.reports_plus_leader_board .project_responsibilities tr, 
+.reports_plus_leader_board .project_activities tr{
+	color: #666666;
+}
+
+.reports_plus_leader_board .project_responsibilities td, 
+.reports_plus_leader_board .project_activities td{
+	padding: 3px !important;
+
+}
+
+.reports_plus_leader_board .project_responsibilities, 
+.reports_plus_leader_board .project_activities {
+	margin-left: 10px;
+}
+
+.reports_plus_leader_board .td_width {
+ 	width: 23px;
+}
+
+/* ccs for financial reports*/
+
+.reports_plus_main_container .finance_main_container {
+	width: 100%;
+	clear: both;
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family : Tahoma, 'Lucida Grande',Arial,sans-serif;
+}
+
+.reports_plus_main_container .invoice_stats_container {
+	width: 17%;
+	height: 100%;
+	float: left;
+	clear: both;
+	background-color: #FDFFD2;
+	border: 2px solid #FDFFD2;
+	border-radius: 4px;
+	min-height: 435px;
+}
+
+.reports_plus_main_container .invoice_group_container {
+	width: 14%;
+	height: 100%;	
+	float: left;
+	color: #7C7C7C;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-left: 5px;
+	border-radius: 4px;
+	background-color: #F0F8FF;
+	border: 2px solid #F0F8FF;
+	/*height: 425px;*/ 
+	min-height: 435px;
+}
+
+.reports_plus_main_container .invoice_details_container {
+	width: 67%;
+	height: 100%;
+	float: left;
+	background-color: #FFFFFF;
+	min-height: 435px;
+}
+
+.reports_plus_main_container .general_stats_container {
+	margin-top: 10px;
+	width: 100%;
+	height: 40%;
+}
+
+.reports_plus_main_container .general_stats_cell {
+	margin-bottom: 1px;
+	margin-top: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: center;
+}
+
+.reports_plus_main_container .general_stats_label {
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #8E8E8E;
+}
+
+.reports_plus_main_container .general_stats_value {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #575757;
+}
+
+.reports_plus_main_container .general_stats_changed {
+	text-align: center;
+}
+
+.reports_plus_main_container .up_down_indicator {
+	width: 12px;
+	width: 12px;
+	text-align: right;
+	padding-right: 2px;
+	vertical-align: middle;
+        padding-bottom : 2px;
+}
+
+.reports_plus_main_container .general_stats_changed_value {
+    color: #575757;
+	font-size: 1.0em;
+	text-align: center;
+    padding-bottom: 8px;
+}
+
+.reports_plus_main_container .invoice_stats_header {
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #575757;
+}
+
+.reports_plus_main_container .unpaid_invoices_stats_container {
+	width: 92%;
+	height: 30%;
+	margin-top: 1%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.reports_plus_main_container .invoice_stats_cell {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.reports_plus_main_container .invoice_stats_label {
+	font-size: 1em;
+	font-weight:bold;
+	text-align: left;
+	width: 48%;
+	color: #8E8E8E;
+        padding-top: 3px;
+}
+
+.reports_plus_main_container .invoice_stats_value {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: right;
+	width: 40%;
+	color: #575757;
+        padding-top: 3px;
+}
+
+.reports_plus_main_container .invoice_stats_container spacer {
+	height: 12;
+}
+
+.reports_plus_main_container .top_clients_stats_container {
+	width: 92%;
+	height: 30%;
+	margin-top: 7%;
+	margin-bottom: 5%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.reports_plus_main_container .finance_main_container hr {
+	border: 1px solid;
+	width: 100%;
+}
+
+.reports_plus_main_container .invoice_stats_container hr {
+	color: #F2F292;
+	width: 94%;
+}
+
+.reports_plus_main_container .vertical_rule {
+	/*#BDBDBD*/
+	border-left: 1px solid #F2F292;
+	float: left;
+	height: 425px;
+	margin-left: 4px;
+        margin-right: -1px;
+        margin-top: 6px;
+}
+
+.reports_plus_main_container .invoice_group_container ul {
+	margin-top: 6px;
+	margin-bottom: 11px;
+	margin-left: 4px;
+	margin-right: 5px;
+	padding-left: 0px !important;
+}
+
+.reports_plus_main_container .invoice_group_container li
+{
+	list-style: none;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 !important;
+	margin-right: -8px;
+	padding-left: 8px !important;
+}
+
+.reports_plus_main_container .invoice_summary_container {
+	width: 96%;
+	margin: 1% 2%;
+}
+
+.reports_plus_main_container .invoice_summary_cell {
+	width: 24%;
+	padding-right: 1%;
+}
+
+.reports_plus_main_container .details_grid_container {
+	width: 96%;
+	font-size: 1.2em;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.reports_plus_main_container .invoices_kpi_container {
+	width: 100%;
+	text-align: right;
+}
+
+.reports_plus_main_container .kpi_label_box {
+	font-size: 1.1em;
+	font-weight: bold;
+	width: 100%;
+}
+
+.reports_plus_main_container .kpi_label {
+	width: 62%;
+	text-align: right;
+}
+
+.reports_plus_main_container .kpi_invoice_count {
+	width: 38%;
+}
+
+.reports_plus_main_container .kpi_value {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.reports_plus_main_container .kpi_stats_changed {
+	text-align: right;
+}
+
+.reports_plus_main_container .kpi_stats_changed_value {
+	font-size: 1.0em;
+	width: 98%;
+	text-align: right;
+}
+
+.reports_plus_main_container #issued_invoices_container {
+	color: #70A9DD;
+}
+
+.reports_plus_main_container #issued_invoices_container hr {
+	color: #70A9DD;
+	opacity: 0.7;
+}
+
+.reports_plus_main_container #paid_invoices_container {
+	color: #6FAB54;
+}
+
+.reports_plus_main_container #paid_invoices_container hr {
+	color: #6FAB54;
+	opacity: 0.7;
+}
+
+.reports_plus_main_container #outstanding_invoices_container {
+	color: #E7943E;
+}
+
+.reports_plus_main_container #outstanding_invoices_container hr {
+	color: #E7943E;
+	opacity: 0.7;
+}
+
+.reports_plus_main_container #overdue_invoices_container {
+	color: #CD0101;
+}
+
+.reports_plus_main_container #overdue_invoices_container hr {
+	color: #CD0101;
+	opacity: 0.7;
+}
+
+.reports_plus_main_container .select_item {
+	background-color: black;
+}
+
+.reports_plus_main_container.unselect_item {
+	background-color: black;
+}
+.reports_plus_main_container #items_group_list li:hover {
+	background-color: #FFFFFF;
+	cursor: pointer;
+	border-radius: 4px 0px 0px 4px;
+    box-shadow: -1px 0px 10px 0px #CCC;
+    -webkit-box-shadow: -1px 0px 10px 0px #CCC;
+    -moz-box-shadow: -1px 0px 10px 0px #CCC;
+}
+
+
+.finance_main_container .search_in_grid {
+	width: 98%;
+	margin-top: 26px;
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: right;
+	height: 26px;
+}
+.finance_main_container .search_filter {
+	width: 225px;
+	border: 0px;
+	background-color: #F0F0F0;
+	border-radius: 4px;
+	float: right;
+    line-height: 21px;
+    margin-right: 2px;
+    height: 23px;
+}
+
+.finance_main_container .search_field {
+	outline: none;
+	/*ANC -6*/
+	width: 78%;
+	border: 0px;
+	background-color: transparent;
+    padding-top: 4px;
+    font-size: 1.1em;
+}
+
+table.finance_data_grid td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+	padding-left: 5px;
+	color: #525252;
+}
+
+.reports_plus_main_container .month_list_items{
+    background-color: white !important;
+    color: black;
+    border-radius: 4px 0px 0px 4px;
+    -webkit-box-shadow: -1px 0px 10px 0px #EEE;
+    -moz-box-shadow: -1px 0px 10px 0px #EEE;
+    box-shadow: -1px 0px 10px 0px #EEE;
+}
+
+.reports_plus_main_container .issued_hr{
+     border-bottom: 1px solid;
+}
+.finance_main_container .search_icon {
+    float: left;
+    padding: 6px 2px 4px 10px;
+}
+
+.reports_plus_main_container .horizontal_rule {
+	border-bottom: 2px solid #F2F292;
+	width: 94%;
+	margin-left: 3%;
+	margin-bottom: 3px;
+}
+.reports_plus_main_container .finance_main_container .clear_search {
+	float: right;
+	padding: 6px 6px 0px 2px;
+	cursor: pointer;
+}
+
+.reports_plus_main_container .custom_select {
+	outline: none !important;
+	border: none;
+	margin-left: 3px;
+	background: transparent;
+	-webkit-appearance: none;
+	padding-bottom: 7px;
+	margin-top: 3px;
+}
+
+.reports_plus_main_container .custom_select_container:hover {
+	box-shadow: 0 0 6px #B5DCF2;
+	-webkit-box-shadow: 0 0 6px #B5DCF2;
+	-moz-box-shadow: 0 0 6px #B5DCF2;
+}
+.reports_plus_main_container .custom_select_container select {
+	margin-top: 3px !important;
+}
+.clear{
+    clear:both;
+}
+
+.reports_error_container{
+	
+}
+.reports_error_class{
+	text-align: center;
+	font-size: 14px;
+	width: 250px;
+	height: 50px;
+	margin: 5% auto;
+	color: #333;
+}
+
+.reports_plus_main_container .list {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+.reports_plus_main_container .list > li {
+    padding: .3em;
+    /*-webkit-transition: all .3s ease-out;*/
+    /*transition: all .3s ease-out;*/
+    position: relative;
+}
+.projects_details_most_active .list{
+    float: left;
+	width: 48%;
+    margin-left: 2%;
+}
+
+.reports_plus_main_container .list .list_label{
+	vertical-align: sub;
+	padding: .1em .4em;
+}
+
+.reports_plus_main_container .projects_task_in_progress .list_label{
+	/*border-radius: 2px;*/
+}
+.reports_plus_main_container .projects_task_in_progress .list_label_container{
+	width: 48%;
+	float: left;
+}
+
+.reports_plus_main_container .list .list_value{
+	width: 46%;
+	float: left;
+	/*margin-left: 1em;*/
+	/*padding: .1em;*/
+	font-size:1.3em;
+	color: #444;
+	font-weight : bold;
+	text-align: right;
+	margin-right: 2%;
+}
+.reports_plus_main_container .projects_task_in_progress,
+.reports_plus_main_container .projects_at_glance{
+	margin-top: 6%;
+	width: 98%;
+    margin-left: 2%;
+}
+.reports_plus_main_container .projects_task_in_progress ul,
+.reports_plus_main_container .projects_at_glance ul{
+	margin-left: -20%
+}
+
+.reports_plus_main_container .projects_at_glance .list_label{
+	color: #333 !important;
+
+}
+.reports_plus_main_container .projects_details_grid{
+	width: 100%;
+	clear: both;
+	margin-top: 2%;
+}
+.reports_plus_main_container .no_data_msg{
+	color: #AAA;
+	padding: 2em !important;
+	text-align: center;
+
+}
+.projects_details_grid i{
+	float:left;
+	margin-right: .4em !important;
+}
+
+.reports_plus_main_container .projects_details_velocity_data_container{
+	/*height: 165px;*/
+}
+.reports_plus_main_container .projects_details_velocity_data_container li:nth-child(n+3) {
+	padding-top: .9em !important;
+}
+.reports_plus_main_container .projects_details_velocity_data_container li > div{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em ;
+	margin-top: .2em;
+
+}
+.projects_details_velocity_data_container .project_next_milestone span{
+	margin-left: 5px !important;
+	vertical-align: top;
+	/*float: left;*/
+}
+
+.projects_details_velocity_data_container .project_leader,
+.projects_details_velocity_data_container .project_next_milestone{
+	text-align: left;
+}
+.projects_details_velocity_data_container .velocity_forcast_container,
+.projects_details_velocity_data_container .hours_forcast_container{
+	float: left !important;
+	clear: none !important;
+	margin-left: 3%;
+}
+.projects_details_velocity_data_container .velocity_forcast_container{
+	width:37% !important;
+}
+.projects_details_velocity_data_container .hours_forcast_container{
+	width:57% !important;
+}
+.projects_details_velocity_data_container .project_percent_bar_chart_container{
+	background-color: #DDD;
+	height: 3px;
+	width: 100%;
+}
+.projects_details_velocity_data_container .project_progress_completed_label,
+.projects_details_velocity_data_container .project_fotecasted_date_label{
+	font-size: 1em !important;
+}
+
+.projects_details_velocity_data_container .project_leader .project_list_value{
+	margin-left: 5px;
+}
+.projects_details_velocity_data_container .project_percent_bar_chart{
+	background-color:green;
+	height: 3px;
+}
+.projects_details_velocity_data_container .state_value{
+	font-size: 2.3em !important;
+	margin-bottom: .2em !important;
+	width: 100%;
+	color: #3C3C3C;
+}
+
+
+.projects_details_velocity_data_container .state_label,
+.projects_details_velocity_data_container .project_name_label,
+.projects_details_velocity_data_container .project_name_label a,
+.projects_details_velocity_data_container .project_list_value,
+.projects_details_velocity_data_container .project_fotecasted_date_label,
+.projects_details_velocity_data_container .project_next_milestone{
+	color: #3c3c3c !important;
+}
+
+.projects_details_velocity_data_container .project_percent_progress_bar{
+	margin-left: 1%;
+	width:78%;
+	float: left;
+	margin-top: .5em;
+}
+.projects_details_velocity_data_container .project_percent_progress_value{
+	margin-left: 1%;
+	width:19%;
+	float: left;
+}
+.projects_details_velocity_data_container .project_fotecasted_date_value{
+	font-size: 1.5em !important;
+}
+
+
+#people_leader_board table {
+	width:60% !important;
+}
+#people_leader_board thead th{
+	font-size: 1em !important;
+	font-weight: bold;
+}
+
+#people_leader_board thead th.lb_rank,
+#people_leader_board thead th.lb_score {
+	text-align: center;
+}
+
+#people_leader_board tbody td.lb_rank_value,
+#people_leader_board tbody td.lb_score_value {
+	text-align: center;
+	font-size: 2em !important;
+}
+#people_leader_board tbody td.lb_score_value {
+	color:#7200AB !important;
+}
+#people_leader_board tbody td.lb_user_value {
+	width: 70% !important;
+}
+
+#people_leader_board tbody img {
+	margin-right: 10px;
+	float: left; 
+	border-radius: 20px;
+}
+
+#people_leader_board tbody div.lb_user_name{
+	vertical-align:baseline;
+	line-height: 40px;
+	width:75%;
+	font-size: 1.2em !important;
+}
+#people_leader_board tbody div.lb_user_hidden{
+	text-align: center;
+	color: #999 !important;
+
+}
+
+.score_information  .profile_score_value {
+	font-size: 35% !important;
+}
+
+.rank_information  .profile_score_value {
+	font-size: 110% !important;
+}
+
+/*
+.reports_profile_menu_popup .profile_score_container .score_information {
+	width : 100%;
+	font-size: 2em;
+
+}*/
+li#menu_item_profile span.badge{
+	background-color: #E08B1B !important;
+	border-radius: 2px !important;
+}
+
+
+.reports_profile_menu_popup .profile_menu_popup_avatar_wrapper{
+    width: 100% !important;
+}
+
+.reports_profile_menu_popup .profile_menu_popup_avatar_wrapper a {
+    float: left;
+}
+.reports_profile_menu_popup .profile_menu_popup_avatar_wrapper a img{
+    /*border-right: 1px dashed #ddd !important;*/
+    max-height: 100px !important;
+    margin-top: 22px !important;
+    margin-left: 10px !important;
+    border-radius: 5px !important;
+    /*padding-right: 5px !important;*/
+}
+.reports_profile_menu_popup .profile_score_container {
+	width : 60%;
+	/*float:left;*/
+	text-align: center;
+	/*margin-top: 30px !important;*/
+	margin-left: 38% !important;
+}
+
+
+.reports_profile_menu_popup .profile_score_container .rank_information {
+	width : 100%;
+	font-size: 3em;
+	color: green !important;
+	margin-top: 6% !important;
+}
+
+.reports_profile_menu_popup .profile_score_container .score_information {
+	width : 100%;
+	font-size: 3em;
+	color: green !important;
+	margin-top: -5% !important;
+}
+.reports_profile_menu_popup .profile_score_container .rank_information .profile_score_label ,
+.reports_profile_menu_popup .profile_score_container .score_information .profile_score_label{
+	font-size: 40% !important;
+	color: #333 !important;
+	margin-left: 5px !important;
+
+}
+.reports_profile_menu_popup .profile_score_container .rank_information .profile_score_label_subs {
+	font-size: 40% !important;
+	color: #333333 !important;
+}
+.reports_profile_menu_popup .profile_score_container .rank_information .profile_score_error_msg {
+	color: #3e3e3e !important;
+	font-size: 40% !important;
+	text-align: center;
+	float: left !important;
+}
+
+.reports_profile_menu_popup .profile_score_container .rank_information .label span{
+	font-size: 60% !important;
+	color: #333 !important;
+}
+
+.reports_profile_menu_popup .profile_avatar_style{
+	/*width: 100% !important;*/
+}
+
+.reports_profile_menu_popup .profile_avatar_style a{
+    /*float: left;*/
+}
+
+.reports_profile_menu_popup .profile_avatar_style a img{
+    /*border-right: 1px dashed #ddd !important;*/
+   /* max-height: 100px !important;
+    margin-top: 22px !important;
+    margin-left: 10px !important;
+    border-radius: 5px !important;*/
+    /*padding-right: 5px !important;*/
+}
+
+/*#reports_burn_down_chart_tooltip{*/
+.reports_plus_reports_container .tooltip_main_container{
+	width: 94%;
+	padding: 1% 2%;
+	height: 60px;
+	margin: 1% 0% 1% 2%;
+	z-index: 9999;
+	position: relative;
+	border: 1px solid #FFF;
+	/*display:block;*/
+}
+.reports_plus_reports_container .tooltip_main_container_highlight{
+	border-color: #DDD !important;
+	/*outline-offset: -2px;*/
+}
+
+.reports_plus_reports_container .projects_chart_velocity .chart_tooltip_stats{
+	margin-left: 2%;
+	width:23%;
+	float: left;
+}
+.reports_plus_reports_container .projects_chart_hours .chart_tooltip_stats{
+
+	margin-right: 3%;
+	width:30%;
+	float: left;
+}
+.reports_plus_reports_container .chart_tooltip_stats div.state_value{
+	font-size: 1.5em;
+	width:100%;
+	
+}
+
+.reports_plus_reports_container .chart_tooltip_stats span.prev_state_value{
+	font-size: .6em;
+	color:#777!important;
+	margin-right: .3em;
+	
+}
+.reports_plus_reports_container .chart_tooltip_stats div.state_label{
+	font-size: .9em	;
+	width:100%;
+}
+
+.reports_plus_reports_container .chart_tooltip_stats_container{
+	text-align: right;
+	margin-top: 8px;
+}
+
+.reports_plus_main_container .tooltip_date{
+	font-weight: normal !important; 
+	font-size: .8em !important;
+	font-style: italic;
+
+}
+.reports_plus_main_container .tooltip_div{
+	 color: #3C3C3C;
+}
+.reports_plus_main_container .tooltip_font_bold{
+
+}
+.reports_plus_main_container .tooltip_iteration_stats{
+	margin-top: 8px;
+	font-style: italic;
+	text-align: right;
+	
+}
+
+.reports_plus_main_container .reports_chart_axis{
+	border-bottom: 1px solid #EEE;
+	margin-top: -20px !important;
+
+}
+div.leader_board_date_range > div{
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+
+}
+div.leader_board_date_range  div:first-child{
+	margin-left: 25px;
+}

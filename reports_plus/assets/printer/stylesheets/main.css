@@ -1,0 +1,864 @@
+/* Time Reports Plus */
+#select_all_row,.report_chb,.select_all_row_label,#select_all_row,#timereports_action,#globaltimerecord_submit,#mass_edit_globaltimereports
+	{
+	display: none;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+td {
+	padding: 4px !important;
+}
+
+table#global_time_report_records #records_summary,
+table#global_time_report_records .global_total_hours {
+	font-weight: bold;
+	font-size: 1.2em;
+	border-top: 1px solid #CCC !important;
+	border-bottom: 1px solid #CCC !important;
+	text-align: right;
+}
+
+table#global_time_report_records .heading0 td {
+	font-size: 1.5em !important;
+	background-color: #F5F4DD !important;
+	padding: 5px !important;
+	font-weight: bold !important;
+	border-bottom: thin solid #DDD !important;
+	text-indent: 8px !important;
+}
+
+table#global_time_report_records .heading1 td {
+	font-size: 1.3em !important;
+	font-weight: bold !important;
+	padding: 5px !important;
+	border-bottom: thin solid #F2F2F2 !important;
+	background-color: #E5E3E3 !important;
+	text-indent: 22px !important;
+}
+
+table#global_time_report_records .heading2 td {
+	font-size: 1.2em !important;
+	border-bottom: thin solid #F2F2F2 !important;
+	padding: 5px !important;
+	font-weight: bold !important;
+	text-indent: 36px !important;
+}
+
+#global_time_report_records td.Hours {
+	padding-left: 5px;
+	text-align: right !important;
+	width: 50px;
+}
+
+table#global_time_report_records .totalEstimate0,
+table#global_time_report_records .totalEstimate1,
+table#global_time_report_records .totalEstimate2 ,
+table#global_time_report_records .totalEstimate{
+     text-align: right !important;
+     /*padding-right: 5px !important;*/
+}
+table#global_time_report_records .totalHours0, 
+table#global_time_report_records .totalHours1, 
+table#global_time_report_records .totalHours2 ,
+table#global_time_report_records .totalHours{
+     text-align: right !important;
+       /*padding-right: 5px !important;*/
+}
+table#global_time_report_records td.Date{
+	padding-left: 50px !important;
+
+}
+/* Reports Plus */
+.reports_plus_main_container {
+	background-color: #FFFFFF;
+	padding-top: 5px;;
+	padding-right: 1%;
+	padding-left: 0.5%;
+	min-width: 930px;
+	font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+.reports_plus_main {
+	height: 100%
+}
+
+.reports_plus_main_container .reports_plus_controls {
+	border-bottom: 1px solid #D0D0D0;
+	height: 28px;
+	width: 100%;
+}
+
+.reports_plus_main_container .reports_tpl_container {
+	height: 100%;
+	width: 100%;
+	clear: both;
+	position: relative;
+}
+
+.reports_plus_main_container .project_velocity img {
+	width: 14px;
+	height: 14px;
+}
+
+.reports_plus_main_container .filter_control_container {
+	float: right;
+	width: 67%;
+	margin-left: 1%;
+}
+
+.reports_plus_main_container .reports_plus_reports_container {
+	width: 100%;
+	padding-top: 5px;
+}
+
+.reports_plus_main_container .div_inner_text {
+	float: left;
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+.reports_plus_main_container .div_round_controls {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #D0D0D0;
+	height: 24px;
+	width: 100%;
+}
+
+.reports_plus_main_container .div_round_controls img,
+.reports_plus_main_container .people_div_round_controls img {
+	margin-left: 3px;
+	position: relative;
+	top: 3px;
+	cursor: pointer;
+}
+
+.reports_plus_main_container .company_project_objects {
+	background-color: #FDFFD2 !important;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 8px;
+	border-color: #F9FFC5 !important;
+	-webkit-print-color-adjust: exact;
+}
+
+.reports_plus_main_container .project_objects_cell {
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 2%;
+	width: 14%;
+	text-align: center;
+}
+
+.reports_plus_main_container .project_objects_value {
+	font-size: 1.3em;
+	font-family: Georgia, 'Lucida Grande', Arial, sans-serif;
+}
+
+.reports_plus_main_container .project_objects_label {
+	font-size: 0.9em;
+}
+
+.reports_plus_main_container .div_round_controls select {
+	float: left;
+	margin-top: 2px;
+	font-size: 1em;
+}
+
+.reports_plus_main_container #reports_filter_type {
+	width: 85px;
+	margin-left: 10px;
+}
+
+.reports_plus_main_container #reports_filter_list {
+	width: 155px;
+	margin-left: 5px;
+}
+
+.reports_plus_main_container #date_range_list {
+	width: 8px;
+	margin-left: 2px;
+	cursor: pointer;
+	height: 5px;
+}
+
+.reports_plus_main_container #date_range_list_container {
+	background-image:
+		url('assets/images/reports_plus/default/icon/down.gif');
+	width: 15px;
+	height: 15px;
+	margin-left: 3px;
+	margin-top: 5px;
+	float: left;
+}
+
+.reports_plus_main_container #date_range_list_container select {
+	opacity: 0;
+}
+
+.reports_plus_main_container #reports_companies {
+	width: 165px;
+	margin-left: 10px;
+}
+
+.reports_plus_main_container #reports_companies_project_status {
+	width: 110px;
+	margin-left: 5px;
+}
+
+.reports_plus_main_container .reports_plus_charts_container{
+	width: 75%;
+	float:right;
+}
+
+.reports_plus_main_container .reports_plus_charts_container .header_style {
+	text-align: left;
+}
+
+.reports_plus_main_container .header_style {
+	font-weight: bold;
+	font-size: 1.2em;
+	/*color: #7A7A7A;*/
+	padding-left: 2px;
+	text-align: center;
+	color: #666 !important; 
+	-webkit-print-color-adjust: exact;
+
+
+}
+
+.reports_plus_main_container .display_charts {
+	width: 100%;
+	height: 165px;
+	margin-left: 2%;
+	margin-top: 0.8%;
+	margin-right: 3%;
+	display: block;
+}
+
+.reports_plus_main_container .projects_chart_velocity,
+.reports_plus_main_container .projects_chart_hours {
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	float: left;
+	width: 48%;
+}
+
+/***** Legend  ****/
+.reports_plus_main_container .reports_chart_legend {
+	margin-left: 25px;
+	margin-top: 12px;
+}
+
+.reports_plus_main_container .legend_cell {
+	float: left;
+	margin-left: 10px;
+}
+
+.reports_plus_main_container .legend_bullet {
+	float: left;
+	/*border: 1px solid #AAAAAA*/;
+	margin-top: 1px;
+	height: 7px;
+	width: 7px;
+	-webkit-print-color-adjust: exact;
+}
+
+.reports_plus_main_container .legend_label {
+	float: left;
+	margin-left: 4px;
+	font-size: 0.8em;
+	color: #5B5B5B;
+}
+
+.reports_plus_main_container .reports_plus_projects_details {
+	float:left;
+	width: 22%;
+	margin-right: 2%;
+	margin-left: 1%;
+}
+
+.reports_plus_main_container .small_pie_company {
+	height: 70px ;
+	width: 70px ;
+	float: left;
+	margin-top: -4px;
+	margin-left: -12px;
+}
+
+.reports_plus_main_container .small_pie_project {
+	height: 75px;
+	width: 75px;
+	float: left;
+	margin-top: -5px;
+	margin-left: -10px;
+}
+
+.reports_plus_main_container .company_project_detail_grid {
+	margin-top: 12px;
+	clear: both;
+	width: 101%;
+}
+
+.reports_plus_main_container .reports_projects_details_container {
+	width: 31%;
+	margin-left: 1.5%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.reports_plus_main_container .reports_projects_details {
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #E3F2FF;
+	border: 4px solid #E3F2FF;
+	-webkit-print-color-adjust: exact;
+}
+
+.reports_plus_main_container .project_name_label{
+	font-weight: bold;
+	font-size: 1.2em !important;
+	text-align: left !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.reports_plus_main_container .reports_project_details {
+	clear: both;
+}
+
+.reports_plus_main_container .small_icon {
+	float: left;
+	margin-top: 1px;
+}
+
+.reports_plus_main_container .project_hours_percent .info_label {
+	font-size: 12px !important;
+}
+
+.reports_plus_main_container .info_label {
+	font-size: 10px;
+	float: left;
+	margin-left: 3px;
+	color: #323232;
+}
+
+.reports_plus_main_container .info_label_bold {
+	font-weight: bold;
+}
+
+.reports_plus_main_container .project_velocity_label {
+	font-size: 1em;
+	float: left;
+	margin-left: 3px;
+	color: #323232;
+	font-weight: bold;
+}
+.reports_plus_main_container .reports_projects_details_row .info_label {
+	font-size: 1.1em !important;
+}
+
+.reports_plus_main_container .project_hours{
+	width:7%;
+	text-align: right;
+}
+.reports_plus_main_container .project_percent{
+	width:5%;
+	text-align: right;
+}
+
+.reports_plus_main_container .project_percent_progress_label{
+	font-size: 1em !important;
+	text-align: right;
+}
+ .reports_plus_main_container .project_leader{
+	width: 15%;
+}
+
+.reports_plus_main_container .project_next_milestone{
+	width: 20%;
+	text-align: left;
+}
+
+.reports_plus_main_container .project_next_milestone div.milestone_label{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 92%;
+        float:left;
+        margin-left: 2px;
+}
+.project_next_milestone  img{
+	margin-top: -2px !important;
+	margin-left: -3px;
+}
+
+.reports_plus_projects_details .projects_most_active {
+	margin-top: 2%;
+}
+
+.reports_plus_projects_details .projects_most_active_container {
+	height: 170px;
+}
+
+.reports_plus_charts_container .most_active_task_name a {
+	color: #444 !important;
+    padding-left: 1em !important;
+    display: block;
+}
+
+.reports_plus_projects_details .projects_details_velocity {
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #f2ff8a;
+	height: 14px;
+	margin-top: 1.5%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 4px solid #f2ff8a;
+	-webkit-print-color-adjust: exact;
+}
+
+.reports_plus_projects_details .project_velocity {
+	float: left;
+	margin-left: 5px;
+	width: 45%;
+}
+
+.reports_plus_projects_details .project_forecast {
+	float: left;
+	width: 40%;
+}
+
+.reports_plus_projects_details .projects_details_most_active {
+	clear: both;
+}
+
+
+
+/* CSS for People's section*/
+.reports_plus_leader_board .projects_charts_container {
+	width: 100%;
+	height: 200px;
+}
+
+.reports_plus_leader_board .projects_details {
+	width: 30%;
+}
+
+.reports_plus_leader_board .hours_chart_container {
+	float: right;
+	margin-left: 2%;
+	margin-right: 4%;
+}
+
+.reports_plus_leader_board .assignments_chart_container {
+	float: left;
+	margin-left: 1%;
+}
+
+.reports_plus_leader_board #hours_donut_chart {
+	width: 193px;
+	height: 193px;
+}
+
+.reports_plus_leader_board #assignments_donut_chart {
+	width: 193px;
+	height: 193px;
+}
+
+.reports_plus_leader_board #person_summary div.project_objects_cell {
+	width: 30%;
+	text-align: center;
+}
+
+.reports_plus_leader_board .people_reports {
+	padding-top: 20px;
+}
+
+.reports_plus_leader_board .text_font_bold {
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.reports_plus_leader_board .div_padding_right {
+	padding-left: 4px;
+}
+
+.reports_plus_leader_board .people_select_date_range {
+	width: 260px;
+	float: right;
+	margin-left: 3px;
+}
+
+.reports_plus_leader_board .people_div_round_controls {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #D0D0D0;
+	height: 24px;
+	width: 210px;
+	float: right;
+}
+
+.reports_plus_leader_board .people_div_inner_text {
+	float: left;
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+.reports_plus_leader_board .people_date_range_start {
+	float: left;
+	margin-left: 12px;
+	margin-top: 0px;
+}
+
+.reports_plus_leader_board .people_date_range_end {
+	margin-top: 0px;
+	float: left;
+	margin-left: 5px;
+}
+
+.reports_plus_leader_board .people_select_date_range input.input_text {
+	width: 60px;
+	font-size: 1em;
+	height: 10px;
+}
+
+.reports_plus_leader_board #people_button_load_reports {
+	border-radius: 20px;
+	float: right;
+	padding: 4px 10px !important;
+}
+
+.reports_plus_leader_board .charts_container {
+	width: 70%;
+	height: 100%;
+	margin-top: 12px;
+	float: right;
+}
+
+/* For displaying the legends */
+.reports_plus_leader_board .people_reports_legend {
+	margin-left: 25px;
+	margin-top: 12px;
+}
+
+.reports_plus_leader_board .legend_cell_even {
+	margin-left: 5%;
+}
+
+.reports_plus_leader_board .legend_cell_odd {
+	margin-left: 15%;
+}
+
+.reports_plus_leader_board .people_reports_legend_cell {
+	float: left;
+	width: 40%;
+}
+
+.reports_plus_leader_board .people_reports_legend_bullet {
+	float: left;
+	border: 1px solid #AAAAAA;
+	margin-top: 1px;
+	height: 7px;
+	width: 7px;
+}
+
+.reports_plus_leader_board .people_reports_legend_label {
+	float: left;
+	margin-left: 4px;
+	font-size: 0.8em;
+	color: #5B5B5B;
+	margin-bottom: 1px;
+}
+
+.reports_plus_leader_board #people_hours_assignments_legend {
+	margin-left: 20px;
+}
+
+.reports_plus_leader_board .people_select_date_range {
+	margin-top: -40px;
+	width: 100%;
+}
+
+.reports_plus_leader_board .person_stats {
+	margin-top: 44px;
+	width: 100%;
+}
+
+.reports_plus_leader_board .people_project_summary {
+	background-color: #f9ffc5 !important;
+	height: 50px;
+	margin-top: 12px;
+}
+
+.reports_plus_leader_board .main_container {
+	height: 430px;
+}
+
+.reports_plus_leader_board .leader_board_charts {
+	width: 100%;
+	height: 165px;
+}
+
+.reports_plus_leader_board td.text_font_bold {
+	text-align: right;
+}
+
+.reports_plus_leader_board .project_responsibilities tr,
+.reports_plus_leader_board .project_activities tr {
+	color: #666666;
+}
+
+.reports_plus_leader_board .project_responsibilities td,
+.reports_plus_leader_board .project_activities td {
+	padding: 3px !important;
+}
+
+.print_summary_container {
+	margin-bottom: 12px;
+	border-bottom: 2px solid #999;
+}
+
+.print_summary_title {
+	font-size: 16px;
+	color: #5B5B5B;
+	padding-bottom: 7px;
+}
+
+.print_summary_details {
+	font-size: 12px;
+	color: #5B5B5B;
+	padding-bottom: 7px;
+}
+
+
+
+
+.pill_print {
+	-webkit-print-color-adjust: exact;
+
+}
+.reports_error_class{
+	text-align: center;
+	font-size: 14px;
+	width: 250px;
+	height: 50px;
+	margin: 5% auto;
+	color: #333;
+}
+
+.reports_plus_main_container .list {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+.reports_plus_main_container .list > li {
+    padding: .3em;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    position: relative;
+}
+.projects_details_most_active .list{
+    float: left;
+	width: 48%;
+    margin-left: 2%;
+}
+
+.reports_plus_main_container .list .list_label{
+	vertical-align: sub;
+	padding: .1em .4em;
+}
+
+.reports_plus_main_container .projects_task_in_progress .list_label{
+}
+.reports_plus_main_container .projects_task_in_progress .list_label_container{
+	width: 48%;
+	float: left;
+}
+
+.reports_plus_main_container .list .list_value{
+	width: 46%;
+	float: left;
+	font-size:1.3em;
+	color: #444;
+	font-weight : bold;
+	text-align: right;
+	margin-right: 2%;
+}
+.reports_plus_main_container .projects_task_in_progress,
+.reports_plus_main_container .projects_at_glance{
+	margin-top: 3%;
+	width: 98%;
+    margin-left: 2%;
+}
+
+.reports_plus_main_container .projects_task_in_progress ul,
+.reports_plus_main_container .projects_at_glance ul{
+	margin-left: -20%
+}
+
+.reports_plus_main_container .projects_at_glance .list_label{
+	color: #333 !important;
+
+}
+.reports_plus_main_container .projects_details_grid{
+	width: 100%;
+	clear: both;
+	margin-top: 2%;
+}
+.reports_plus_main_container .no_data_msg{
+	color: #AAA;
+	padding: .4em !important;
+	text-align: center;
+
+}
+
+
+.reports_plus_main_container .projects_details_velocity_data_container{
+	/*height: 165px;*/
+}
+.reports_plus_main_container .projects_details_velocity_data_container li:nth-child(n+3) {
+	padding-top: .9em !important;
+}
+.reports_plus_main_container .projects_details_velocity_data_container li > div{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em ;
+	margin-top: .2em;
+
+}
+.projects_details_velocity_data_container .project_next_milestone span{
+	float: left;
+}
+
+.projects_details_velocity_data_container .project_leader,
+.projects_details_velocity_data_container .project_next_milestone{
+	text-align: left;
+}
+
+.projects_details_velocity_data_container .velocity_forcast_container,
+.projects_details_velocity_data_container .hours_forcast_container{
+	float: left !important;
+	clear: none !important;
+	margin-left: 3%;
+}
+.projects_details_velocity_data_container .velocity_forcast_container{
+	width:37% !important;
+}
+.projects_details_velocity_data_container .hours_forcast_container{
+	width:57% !important;
+}
+.projects_details_velocity_data_container .project_percent_bar_chart_container{
+	background-color: #DDD;
+	height: 3px;
+	width: 100%;
+}
+.projects_details_velocity_data_container .project_progress_completed_label,
+.projects_details_velocity_data_container .project_fotecasted_date_label{
+	font-size: 1em !important;
+}
+
+.projects_details_velocity_data_container .project_leader .project_list_value{
+	margin-left: 5px;
+	float: left;
+
+}
+.projects_details_velocity_data_container .project_percent_bar_chart{
+	background-color:green;
+	height: 3px;
+}
+.projects_details_velocity_data_container .state_value{
+	font-size: 2.3em !important;
+	width: 100%;
+	color: #3C3C3C;
+	margin-top: .2em !important;
+}
+.projects_details_velocity_data_container .state_label{
+	margin-top: 1em !important;
+}
+.projects_details_velocity_data_container .state_label,
+.projects_details_velocity_data_container .project_name_label,
+.projects_details_velocity_data_container .project_name_label a,
+.projects_details_velocity_data_container .project_list_value,
+.projects_details_velocity_data_container .project_fotecasted_date_label,
+.projects_details_velocity_data_container .project_next_milestone{
+	color: #3c3c3c !important;
+}
+
+.projects_details_velocity_data_container .project_percent_progress_bar{
+	margin-left: 1%;
+	width:78%;
+	float: left;
+	margin-top: .5em;
+}
+.projects_details_velocity_data_container .project_percent_progress_value{
+	margin-left: 1%;
+	width:19%;
+	float: left;
+}
+.projects_details_velocity_data_container .project_fotecasted_date_value{
+	font-size: 1.5em !important;
+}
+
+
+reports_projects_details_row{
+	width: 100%;
+	padding: .4em .8em !important;
+}
+.reports_projects_details_row > div{
+	float: left;
+	margin-left: 1%;
+	font-size: 1.1em;
+	color: #3C3C3C;
+
+}
+.projects_details_grid .li_list_header{
+	padding: .8em .8em !important;
+	font-size: 1.1em !important;
+	font-weight: bold;
+	color: #666 !important;	
+}
+.projects_details_grid .li_list_header_border{
+	margin: 0 1.4em .8em 1.4em !important; 
+	border-bottom: dashed .1em #ccc;
+}
+
+.reports_projects_details_row .project_details_list_label{
+	width: 20%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.reports_projects_details_row .project_details_list_label a{
+	font-size: 1.1em !important;
+	line-height: 1.1em !important;
+	color: #444 !important;
+	text-decoration: none;
+}
+.reports_projects_details_row .project_progress_indiacator{
+	width:15px;
+	margin-top: 2px; 
+}
+.reports_projects_details_row .open_completed_contianer{
+	text-align: left;
+	width:14%;
+}
+.reports_projects_details_row .open_completed_contianer span{
+	color: #8c8c8c!important;
+	font-style: italic !important;
+	font-size: .9em !important;
+}
+.reports_plus_main_container .reports_projects_details_row .info_label {
+	font-size: 1.1em !important;
+}
